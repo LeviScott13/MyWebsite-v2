@@ -1,0 +1,26 @@
+html{
+    color: white;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+.logo{
+    width: 15%;
+    float: left;
+    overflow: hidden;
+}
+.banner{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+#header{
+    height: 26%;
+    border-bottom: 2px solid #ff6666;
+    overflow: hidden;
+}
+#font1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100;
+}
