@@ -6,6 +6,7 @@ img {
   max-width: 100%;
 }
 #reflect {
+    border-radius: 10%;
     -webkit-box-reflect: below 5px
     -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.1)));
 }
