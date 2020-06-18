@@ -81,7 +81,7 @@ svg:hover {
     overflow: hidden;
 }
 #font1{
-    font-family: 'Roboto';
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 80;
 }
 #font1:hover{
@@ -95,7 +95,7 @@ svg:hover {
 
 /* Slideshow container */
 #font2{
-  font-family: 'Roboto';
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #ff6666;
   padding-right: 35px;
   font-size: 40;
@@ -136,7 +136,7 @@ svg:hover {
 }
 #font10{
   font-family: 'Roboto';
-  font-size: 15;
+  font-size: 14;
 }
 .fade-in {
   position: relative;
@@ -349,7 +349,7 @@ svg:hover {
 }
 #font12{
   font-family: "Roboto";
-  font-size: 20;
+  font-size: 19;
   padding-left: 10px;
   color: white;
 }
