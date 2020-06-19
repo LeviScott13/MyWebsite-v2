@@ -1,6 +1,6 @@
 body {
   display: flex;
-  background: radial-gradient(white, black 65%);
+  background-image: linear-gradient(black 15%, white 50%, black 85%);
 }
 img {
   max-width: 100%;
