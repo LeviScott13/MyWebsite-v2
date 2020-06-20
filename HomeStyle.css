@@ -5,23 +5,74 @@ body{
     margin: 0;
     background-color: white;
 }
+h1{
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  padding-top: 10px;
+  font-size: 35px;
+  font-family: Roboto;
+}
+h2{
+  margin: 0px;
+  font-family: Roboto;
+  color: #ff6666;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+h3{
+  color: #ff6666;
+  margin-left: 10px;
+}
+article{
+  width: 70%;
+  background-color: rgb(0, 0, 0, 0.93);
+  position: relative;
+  text-align: left;
+}
 ul{
   list-style: none;
+  margin: 0px;
+  padding-left: 20px;
+}
+div{
+  display: block;
+}
+p{
+  color: white;
+  font-family: Roboto;
+  margin-left: 10px;
+  margin-right: 28px;
 }
 svg:hover {
   fill: #ff6666;
 }
 /* Header */
 /**********************************************************************************************************************************/
-.logo{
-    width: 15%;
-    float: left;
-    overflow: hidden;
+#header{
+  height: 7%;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 3;
 }
-.banner{
-    width: 70%;
-    float: left;
-    overflow: hidden;
+.menu{
+  width: 10%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+.logo{
+  text-align: right;
+  height: 100%;
+  width: 10%;
+  float: left;
+}
+.media{
+  width: 80%;
+  height: 100%;
+  float: left;
 }
 .icon{
   padding-right: 25px;
@@ -75,14 +126,21 @@ svg:hover {
   right: 35px;
   }
 }
-#header{
-    height: 26%;
-    border-bottom: 2px solid #ff6666;
-    overflow: hidden;
+/**********************************************************************************************************************************/
+
+
+/* SubHeader */
+/**********************************************************************************************************************************/
+.nameDisplay{
+  width: 100%;
+  height: 17%;
+  overflow: hidden;
+  border-bottom: 2px solid #ff6666;
 }
+
 #font1{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 80;
+    font-size: 70;
 }
 #font1:hover{
   color: #ff6666;
@@ -90,269 +148,92 @@ svg:hover {
 /**********************************************************************************************************************************/
 
 
-/* Slide Show */
+/* About Me */
 /**********************************************************************************************************************************/
-
-/* Slideshow container */
-#font2{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #ff6666;
-  padding-right: 35px;
-  font-size: 40;
-  opacity: 0.5;
+#about{
+  height: 100%;
+  width: 100%;
+  background-color: black;
 }
-#font3{
-  font-family: 'Roboto';
-  font-size: 20;
+.heading{
+  height: 12%;
+  width: 100%;
+  text-align: right;
+}
+.container{
+  height: 88%;
+  width: 100%;
+  border-bottom: 2px solid #ff6666;
+  overflow-y: scroll;
+  background-image: url('Images/Backgrounds/screen.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#me{
+  width: 200px;
   padding-left: 20px;
+  padding-top: 20px;
 }
-#font4{
-  font-family: 'Roboto';
-  font-size: 12;
-  padding-left: 20px;
-}
-#font5{
-  font-size: 12;
-  font-family: 'Roboto';
-}
-#font6{
-  color: #ff6666;
-  font-family: 'Roboto';
-  font-size: 12;
-  padding-left: 20px;
-}
-#font7{
-  font-size: 12;
-  color: #ff6666;
-  font-family: 'Roboto';
-}
-#font8{
-  font-family: 'Roboto';
-  font-size: 12;
-}
-#font9{
-  font-family: 'Roboto';
-  font-size: 20;
-}
-#font10{
-  font-family: 'Roboto';
-  font-size: 14;
-}
-.fade-in {
-  position: relative;
-  animation-name: fadeIn;
-  animation-duration: 3s;
-}
-@keyframes fadeIn {
-  75%  {left:0px; top:100%;}
-  100% {left:0px; top:0%;}
-}
-
-.fade-in2 {
-  position: relative;
-  animation-name: fadeIn2;
-  animation-duration: 4s;
-}
-@keyframes fadeIn2 {
-  75%  {left:0px; top:100%;}
-  100% {left:0px; top:0%;}
-}
-.fade-in3 {
-  position: relative;
-  animation-name: fadeIn3;
-  animation-duration: 5s;
-}
-@keyframes fadeIn3 {
-  75%  {left:0px; top:100%;}
-  100% {left:0px; top:0%;}
-}
-
-.slideshow-container {
-  back
-    width: 100%;
-    height: 68%;
-    background-color: black;
-    position: relative;
-    margin: 0;
-    overflow: hidden;
-  }
-  .innerContainer{
-    position: absolute;
-    top: 90;
-    left: 90;
-    width: 100%;
-    overflow: hidden;
-  }
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  .numbertext {
-    position: absolute;
-    top: 0;
-    text-align: right;
-    width: 100%;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-  }
-
+/**********************************************************************************************************************************/
 
 /* College Life */
 /**********************************************************************************************************************************/
-.flip-card {
-  background-color: transparent;
-  position: absolute;
-  margin-left: 2em;
-  top: 60;
-  left: 0;
-  background-image: url('Images\Backgrounds\sgc.jpg');
-  float: left;
-  width: 85%;
-  height: 300px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
+#college{
   height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
   width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  background-color: black;
 }
-
-.flip-card-front {
-  overflow: hidden;
-  background-color: #bbb;
-  color: black;
+.container2{
+  height: 88%;
+  width: 100%;
+  border-bottom: 2px solid #ff6666;
+  overflow-y: scroll;
 }
-
-.flip-card-back {
-  overflow: hidden;
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
+#sgsc{
+  width: 200px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.summary{
+  background-image: url('Images/Backgrounds/sgc.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.summary2{
+  background-image: url('Images/Backgrounds/vsu.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.summary3{
+  background-image: url('Images/Backgrounds/KSU.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 /**********************************************************************************************************************************/
 
 /* Projects */
 /**********************************************************************************************************************************/
-
-.scrollContainer{
-  background-color: black;
-  border: 1px solid  #ff6666;
-  position: absolute;
-  margin-left: 2em;
-  top: 0;
-  left: 10;
-  float: left;
-  width: 26%;
-  height: 380px;
-  perspective: 1000px;
-  overflow: hidden;
-}
-.scrollContainerInner{
-  position: relative;
-  width: 100%;
+#projects{
   height: 100%;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-} 
-#font11{
-  font-family: "Roboto";
-  font-size: 25;
-  padding-left: 10px;
-  color: #ff6666;
+  width: 100%;
+  background-color: black;
 }
-#font12{
-  font-family: "Roboto";
-  font-size: 19;
-  padding-left: 10px;
-  color: white;
+.container3{
+  height: 88%;
+  width: 100%;
+  border-bottom: 2px solid #ff6666;
+  overflow-y: scroll;
+  background-image: url('Images/Backgrounds/screen2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.list{
+  padding-left: 0px;
+}
+.pContainer{
+  width: 330px;
+  height: 90%;
+  border: 2px solid #ff6666;
 }
 #git{
   fill: #333;
