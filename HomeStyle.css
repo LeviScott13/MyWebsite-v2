@@ -9,7 +9,7 @@ h1{
   color: white;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 10px;
+  margin-left: 20px;
   padding-top: 10px;
   font-size: 35px;
   font-family: Roboto;
@@ -23,7 +23,7 @@ h2{
 }
 h3{
   color: #ff6666;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 article{
   width: 70%;
@@ -42,7 +42,7 @@ div{
 p{
   color: white;
   font-family: Roboto;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-right: 28px;
 }
 svg:hover {
