@@ -189,9 +189,9 @@ svg:hover {
   border-bottom: 2px solid #ff6666;
   overflow-y: scroll;
 }
-#sgsc{
-  width: 200px;
-  padding-left: 20px;
+#pic{
+  width: 125px;
+  padding-right: 20px;
   padding-top: 20px;
 }
 .summary{
