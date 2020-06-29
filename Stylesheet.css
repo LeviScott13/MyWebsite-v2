@@ -7,6 +7,7 @@ img {
 }
 #reflect {
     border-radius: 10%;
+    filter: drop-shadow(8px 8px 12px gray);
     -webkit-box-reflect: below 5px
     -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.1)));
 }
