@@ -9,25 +9,46 @@ img {
 h1{
   font-size: 40;
   color: white;
-  line-height: 60px;
   font-family: Roboto;
 }
-#container{
-  height: 30%;
-  width: 45%;
+.container{
+  width: 100%;
   overflow: hidden;
   display: inline-block;
-  margin: 200 auto 0 auto;
+  margin: 80 auto 0 auto;
 }
-#reflect {
+.reflect {
   border-radius: 10%;
+  height: 60%;
   border: 3px solid #ff6666;
-  position: absolute;
-  top: 200;
-  left: 900;
+  transition: all .2s ease-in-out; 
 }
-.un-photo {
-  background-image: url('Images\Me\Levi.jpg');
+.reflect:hover { 
+  transform: scale(1.3); 
+  }
+.textContainer{
+  width: 70%;
+  float: left;
+}
+.imgContainer{
+  width: 30%; 
+  height: 28%; 
+  float: left;
+}
+@media only screen and (max-width: 420px) {
+    div.textContainer{
+      width: 100%;
+    }
+    h1{
+      font-size: 30;
+    }
+    div.imgContainer{
+      width: 100%;
+      margin-left: 60px;
+      margin-top: 40px;
+    }
+}
+/* .un-photo {
   max-width: 150px;
   margin: auto;
   visibility: hidden;
@@ -61,11 +82,10 @@ h1{
 .un-photo:hover {
   z-index: 999;
 }
-.un-photo:hover > img {
+.un-photo:hover >img {
   opacity: 1;
   transform: scale(1.2);
 }
-/* ---------------------------------- */
 .un-photo__popup {
   z-index: 99;
   position: fixed;
@@ -160,4 +180,4 @@ h1{
   75% {
     transform: translate(10%, 5%) scale(0.9);
   }
-}
+} */
