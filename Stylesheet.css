@@ -52,8 +52,11 @@ span:hover{
     div.textContainer{
       width: 100%;
     }
-    h1{
-      font-size: 30;
+    span{
+      font-size: 32;
+    }
+    span.span2{
+      font-size:32;
     }
     div.imgContainer{
       width: 100%;
