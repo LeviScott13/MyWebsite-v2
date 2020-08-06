@@ -6,10 +6,23 @@ body {
 img {
   max-width: 100%;
 }
-h1{
+span{
   font-size: 40;
   color: white;
   font-family: Roboto;
+  margin: 0;
+}
+.span2{
+  font-size: 40;
+  color: #ff6666;
+  font-family: Roboto;
+  margin: 0;
+}
+span:hover{
+  color: #ff6666;
+}
+.span2:hover{
+  color: white;
 }
 .container{
   width: 100%;
