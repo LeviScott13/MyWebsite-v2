@@ -92,7 +92,7 @@ summary{
 }
 /******************** Divider Classes ******************/
 .divider{
-  margin-bottom: 150px;
+  margin-bottom: 60px;
 }
 .overlay {
   height: 100%;
@@ -424,7 +424,7 @@ summary{
 
 .tab {
   overflow: hidden;
-  margin: 90 auto 0 auto;
+  margin: 0 auto 0 auto;
   text-align: center;
 }
 .tabContainer {
