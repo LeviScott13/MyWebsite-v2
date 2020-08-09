@@ -250,7 +250,6 @@ summary{
   height: 10%; 
   position: fixed;
   background-color: black;
-  overflow: hidden;
 }
 .textContainer{
   width: 50%;
