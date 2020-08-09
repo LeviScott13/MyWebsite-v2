@@ -455,7 +455,7 @@ summary{
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: #1B1A1A;
   border-bottom: 2px solid #ff6666;
   color: #ff6666;
 }
