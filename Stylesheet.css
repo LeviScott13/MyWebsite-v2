@@ -528,11 +528,16 @@ summary{
     }
     /******************** Parallax Classes ******************/
     div.paralax1{
-      min-height: 400px;
-      background-size: 10% 10%;
+      visibility: hidden;
+      min-height: 0px;
     }
     div.paralax2{
-      min-height: 400px;
+      visibility: hidden;
+      min-height: 0px;
+    }
+    div.paralax3{
+      visibility: hidden;
+      min-height: 0px;
     }
     /******************** Font Classes ******************/
     p{
