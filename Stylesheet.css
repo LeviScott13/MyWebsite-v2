@@ -431,12 +431,13 @@ summary{
   margin-left: 100px;
   overflow: hidden;
   display: inline-block;
-  background-color: gray;
+  background-color: #1B1A1A;
   margin: 0 auto 0 auto;
 }
 /* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
+  color: gray;
   float: left;
   border: none;
   outline: none;
@@ -456,6 +457,7 @@ summary{
 .tab button.active {
   background-color: #ccc;
   border-bottom: 2px solid #ff6666;
+  color: #ff6666;
 }
 
 /* Style the tab content */
