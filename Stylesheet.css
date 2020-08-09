@@ -309,10 +309,10 @@ summary{
   background-image: url('Images/Backgrounds/tech.jpg');
   background-size: 100% 100%; 
   position: relative;
-  background-position: center;
+  background-position: center !important;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed !important;
 }
 .paralax3{
   min-height: 450px;
