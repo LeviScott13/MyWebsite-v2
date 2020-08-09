@@ -98,7 +98,7 @@ summary{
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   top: 0;
   left: 0;
   background-color: rgb(0,0,0);
@@ -425,11 +425,16 @@ summary{
 
 .tab {
   overflow: hidden;
-  background-color: gray;
-  width: 46.37%;
   margin: 90 auto 0 auto;
+  text-align: center;
 }
-
+.tabContainer {
+  margin-left: 100px;
+  overflow: hidden;
+  display: inline-block;
+  background-color: gray;
+  margin: 0 auto 0 auto;
+}
 /* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
@@ -456,7 +461,7 @@ summary{
 
 /* Style the tab content */
 .tabcontent {
-  width: 46.37%;
+  width: 52%;
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
