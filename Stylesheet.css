@@ -293,7 +293,7 @@ summary{
 }
 
 /******************** Paralax Classes ******************/
-.paralax1{
+.paralax1, .pingPong, .uga, .ps, .sgsc, .vsu{
   min-height: 450px;
   background-image: url('Images/Backgrounds/Atlanta.jpg');
   background-size: 100% 100%; 
@@ -302,6 +302,21 @@ summary{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.pingPong{
+  min-height: 450px;
+  background-image: url('Images/Backgrounds/pingpong.jpg');
+  background-size: 100% 100%; 
+}
+.uga{
+  min-height: 450px;
+  background-image: url('Images/Backgrounds/uga.jpg');
+  background-size: 100% 100%; 
+}
+.ps{
+  min-height: 450px;
+  background-image: url('Images/Backgrounds/ps.jpg');
+  background-size: 100% 100%; 
 }
 .paralax2{
   min-height: 450px;
@@ -322,6 +337,16 @@ summary{
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.sgsc{
+  min-height: 450px;
+  background-image: url('Images/Backgrounds/sgc.jpg');
+  background-size: 100% 100%; 
+}
+.vsu{
+  min-height: 450px;
+  background-image: url('Images/Backgrounds/vsu.jpg');
+  background-size: 100% 100%; 
 }
 /******************** Font Classes ******************/
 .span1{
