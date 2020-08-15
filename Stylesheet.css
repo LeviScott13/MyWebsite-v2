@@ -695,34 +695,3 @@ summary{
     margin-bottom: 150px;
   }
 }
-
-/******************** Mac  ***********************/
-
-@media only screen and (min-width: 1400px) {
-  
-  /******************** Container Classes ******************/
-  .textContainer{
-    width: 48%;
-  }
-  .featuredContainer{
-    margin-top: 140px;
-  }
-
-  /******************** Font Classes ******************/
-  p{
-    font-size: 25;
-  }
-  .span6{
-    font-size: 45;
-  }
-  .span7{
-    font-size: 25;
-  }
-  .span8{
-    font-size: 22;
-  }
-  /******************** Image Classes ******************/
-  div.imageContainer{
-    margin-top: 100px;
-  }
-}
