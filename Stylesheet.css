@@ -72,7 +72,7 @@ ul{
   padding-left: 20px;
 }
 p{
-  font-size: 18;
+  font-size: 20;
   color: white;
   margin-right: 40px;
 }
@@ -229,7 +229,7 @@ summary{
   height: 18%;
   position: absolute;
   top: 105;
-  right: 220;
+  right: 270;
   border: 3px solid #ff6666;
 }
 .pic{
@@ -246,13 +246,13 @@ summary{
   background-color: black;
 }
 .textContainer{
-  width: 50%;
-  margin: 110 auto 0 auto;
+  width: 45%;
+  margin: 120 auto 0 auto;
 }
 .featuredContainer{
   width: 90%;
   text-align: center;
-  margin: 65 auto 0 auto;
+  margin: 100 auto 0 auto;
 }
 .context{
   height: 55%;
@@ -317,10 +317,10 @@ summary{
   background-image: url('Images/Backgrounds/tech.jpg');
   background-size: 100% 100%; 
   position: relative;
-  background-position: center !important;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed !important;
+  background-attachment: fixed;
 }
 .paralax3{
   min-height: 450px;
@@ -395,7 +395,7 @@ summary{
   font-family: Roboto;
 }
 .span7{
-  font-size: 18;
+  font-size: 20;
   color: #ff6666;
   font-family: Roboto;
 }
