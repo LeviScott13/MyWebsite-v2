@@ -581,7 +581,23 @@ summary{
     visibility: hidden;
     min-height: 0px;
   }
-  div.pingPong, div.uga, div.ps, div.sgsc, div.vsu{
+  div.pingPong{
+    visibility: hidden;
+    min-height: 0px;
+  }
+  div.uga{
+    visibility: hidden;
+    min-height: 0px;
+  }
+  div.ps{
+    visibility: hidden;
+    min-height: 0px;
+  }
+  div.sgsc{
+    visibility: hidden;
+    min-height: 0px;
+  }
+  div.vsu{
     visibility: hidden;
     min-height: 0px;
   }
