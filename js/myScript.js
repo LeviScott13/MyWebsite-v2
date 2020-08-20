@@ -1,27 +1,36 @@
 var aboutParalax = document.getElementById("aboutParalax");
 var images = new Array();
+
 var eduParalax = document.getElementById("eduParalax");
 var images2 = new Array();
+
 images[0] = 'paralax2';
 images[1] = 'pingPong';
 images[2] = 'uga';
 images[3] = 'ps';
+
 images2[0] = 'paralax3';
 images2[1] = 'sgsc';
 images2[2] = 'vsu';
+
 aboutParalax.className = images[0];
 var p = images.length;
 var p2 = images2.length;
+
 var switchImage;
 var switchImage2;
+var switchImage3;
+
 const interval = setInterval(function changImage(){
     switchImage = Math.round(Math.random() * (p-1));
     switchImage2 = Math.round(Math.random() * (p2-1));
+    switchImage3 = Math.round(Math.random() * (p3-1));
     aboutParalax.className = images[switchImage];
     eduParalax.className = images2[switchImage2];
+    expParalax.className = images3[switchImage3];
 },5000);
 
-
+/************************* Tab Content *************************/
 function openNav() {
     document.getElementById("myNav").style.width = "60%";
 }
