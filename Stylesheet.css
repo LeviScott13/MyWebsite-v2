@@ -145,10 +145,6 @@ summary{
   0% { transform: rotate(0deg);}
   100% { transform: rotate(360deg);}
 }
-/******************** Divider Classes ******************/
-.divider{
-  margin-bottom: 60px;
-}
 
 /******************** Container Classes ******************/
 #contentContainer{
@@ -180,6 +176,7 @@ summary{
   border-top: 2px solid #1B1A1A;
   background-image: url('Images/Backgrounds/default3.png');
   background-size: 10%;
+  overflow-y: scroll;
 }
 .iconHeaderContainer{
   float: left; 
@@ -431,6 +428,11 @@ summary{
   color: white;
   font-family: Roboto;
 }
+.span11{
+  color: white;
+  font-size: 20;
+  margin: 0px;
+}
 /******************** Button Classes ******************/
 .btn{
     position: absolute;
@@ -576,9 +578,6 @@ summary{
   div.imageContainer{
     visibility: hidden;
   }
-  .divider{
-    margin-bottom: 30px;
-  }
   /******************** Parallax Classes ******************/
   div.paralax1{
     visibility: hidden;
@@ -715,10 +714,5 @@ summary{
     border: 1px solid #ccc;
     border-top: none;
     margin: 30 auto 0 auto;
-  }
-
-  /******************** Divider Classes ******************/
-  .divider{
-    margin-bottom: 150px;
   }
 }
