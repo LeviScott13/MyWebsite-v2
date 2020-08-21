@@ -778,9 +778,6 @@ summary{
   svg.icon{
     margin: 0px;
   }
-  #jobPic{
-    visibility: hidden;
-  }
   /******************** Button Classes ******************/
   button.btn{
     right: 130;
