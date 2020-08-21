@@ -171,7 +171,13 @@ summary{
   background-image: url('Images/Backgrounds/default3.png');
   background-size: 10%;
 }
-
+#experienceContainer{
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #1B1A1A;
+  background-image: url('Images/Backgrounds/default3.png');
+  background-size: 10%;
+}
 #projectContainer{
   width: 100%;
   height: 100%;
@@ -299,7 +305,7 @@ summary{
 }
 
 /******************** Paralax Classes ******************/
-.paralax1, .pingPong, .uga, .ps, .sgsc, .vsu{
+.paralax1, .pingPong, .uga, .ps, .sgsc, .vsu, .bball, .adidas{
   min-height: 450px;
   background-image: url('Images/Backgrounds/Atlanta.jpg');
   background-size: 100% 100%; 
@@ -352,6 +358,26 @@ summary{
 .vsu{
   min-height: 450px;
   background-image: url('Images/Backgrounds/vsu.jpg');
+  background-size: 100% 100%; 
+}
+.paralax4{
+  min-height: 450px;
+  background-image: url('Images/Backgrounds/network.jpg');
+  background-size: 100% 100%; 
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bball{
+  min-height: 450px;
+  background-image: url('Images/Backgrounds/bball.jpg');
+  background-size: 100% 100%; 
+}
+.adidas{
+  min-height: 450px;
+  background-image: url('Images/Backgrounds/adidas.jpg');
   background-size: 100% 100%; 
 }
 /******************** Font Classes ******************/
@@ -435,6 +461,16 @@ summary{
   font-size: 20;
   margin: 0px;
 }
+.span12{
+  font-size: 18;
+  color: #ff6666;
+  font-family: Roboto;
+}
+.span13{
+  font-size: 16;
+  color: white;
+  font-family: Roboto;
+}
 /******************** Button Classes ******************/
 .btn{
     position: absolute;
@@ -458,6 +494,7 @@ summary{
 
 /******************** Tab Classes ******************/
 
+/* Tab 1 */
 .tab {
   overflow: hidden;
   margin: 0 auto 0 auto;
@@ -470,7 +507,6 @@ summary{
   background-color: #1B1A1A;
   margin: 0 auto 0 auto;
 }
-/* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
   color: gray;
@@ -484,28 +520,66 @@ summary{
   border-bottom: 2px solid white;
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
 }
 
-/* Create an active/current tablink class */
 .tab button.active {
   background-color: #1B1A1A;
   border-bottom: 2px solid #ff6666;
   color: #ff6666;
 }
 
-/* Style the tab content */
 .tabcontent {
   width: 52%;
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
   margin: 30 auto 0 auto;
 }
 
+/* Tab 2 */
+
+.tab2 {
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+.tabContainer2 {
+  margin-left: 100px;
+  overflow: hidden;
+  display: inline-block;
+  background-color: #1B1A1A;
+  margin: 0 auto 0 auto;
+}
+.tab2 button {
+  background-color: inherit;
+  color: gray;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  border-bottom: 2px solid white;
+}
+
+.tab2 button:hover {
+  background-color: #ddd;
+}
+
+.tab2 button.active {
+  background-color: #1B1A1A;
+  border-bottom: 2px solid #ff6666;
+  color: #ff6666;
+}
+
+.tabcontent2 {
+  width: 52%;
+  display: none;
+  padding: 6px 12px;
+  margin: 30 auto 0 auto;
+}
 /******************** Phone  ***************'********/
 
 @media only screen and (max-width: 420px) {
@@ -593,6 +667,10 @@ summary{
     visibility: hidden;
     min-height: 0px;
   }
+  div.paralax4{
+    visibility: hidden;
+    min-height: 0px;
+  }
   div.pingPong{
     visibility: hidden;
     min-height: 0px;
@@ -610,6 +688,14 @@ summary{
     min-height: 0px;
   }
   div.vsu{
+    visibility: hidden;
+    min-height: 0px;
+  }
+  div.bball{
+    visibility: hidden;
+    min-height: 0px;
+  }
+  div.adidas{
     visibility: hidden;
     min-height: 0px;
   }
@@ -633,6 +719,12 @@ summary{
   }
   .span8{
     font-size: 15;
+  }
+  .span12{
+    font-size: 14;
+  }
+  .span13{
+    font-size: 14;
   }
   img.logo{
     margin-top: 11px;
@@ -716,5 +808,36 @@ summary{
     border: 1px solid #ccc;
     border-top: none;
     margin: 30 auto 0 auto;
+  }
+
+  /******************** Tab Classes ******************/
+  .tab2 {
+    background-color: #1B1A1A;
+    width: 95%;
+    margin: 90 auto 0 auto;
+    
+  }
+  .tab2 button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 12px;
+    width: 50%;
+    border-bottom: 2px solid white;
+  }
+  .tabcontent2 {
+    width: 95%;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin: 30 auto 0 auto;
+  }
+  #expDefaultOpen{
+    padding-top: 15px;
+    padding-bottom: 26px;
   }
 }
