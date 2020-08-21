@@ -4,8 +4,10 @@ html{
   margin: 0px;
 }
 body {
-  background-color: white;
+  /* background-color: white; */
   margin: 0px;
+  background-image: url('Images/Backgrounds/default3.png');
+  background-size: 10%;
 }
 img {
   max-width: 100%;
@@ -721,10 +723,10 @@ summary{
     font-size: 15;
   }
   .span12{
-    font-size: 14;
+    font-size: 12;
   }
   .span13{
-    font-size: 14;
+    font-size: 12;
   }
   img.logo{
     margin-top: 11px;
