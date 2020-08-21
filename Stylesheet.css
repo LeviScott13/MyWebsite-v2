@@ -814,7 +814,7 @@ summary{
 
   /******************** Tab Classes ******************/
   .tab2 {
-    background-color: #1B1A1A;
+    background-color: red;
     width: 95%;
     margin: 60 auto 0 auto;
     
@@ -830,6 +830,9 @@ summary{
     width: 50%;
     border-bottom: 2px solid white;
   }
+  .tabContainer2 {
+    width: 100%;
+  }
   .tabcontent2 {
     width: 95%;
     display: none;
@@ -837,9 +840,5 @@ summary{
     border: 1px solid #ccc;
     border-top: none;
     margin: 30 auto 0 auto;
-  }
-  #expDefaultOpen{
-    padding-top: 15px;
-    padding-bottom: 26px;
   }
 }
