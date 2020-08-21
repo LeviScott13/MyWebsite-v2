@@ -778,6 +778,9 @@ summary{
   svg.icon{
     margin: 0px;
   }
+  #jobPic{
+    visibility: hidden;
+  }
   /******************** Button Classes ******************/
   button.btn{
     right: 130;
@@ -789,7 +792,7 @@ summary{
     overflow: hidden;
     background-color: gray;
     width: 95%;
-    margin: 90 auto 0 auto;
+    margin: 60 auto 0 auto;
   }
   .tab button {
     background-color: inherit;
@@ -816,7 +819,7 @@ summary{
   .tab2 {
     background-color: #1B1A1A;
     width: 95%;
-    margin: 90 auto 0 auto;
+    margin: 60 auto 0 auto;
     
   }
   .tab2 button {
